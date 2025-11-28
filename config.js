@@ -35,6 +35,7 @@ class EnterpriseConfigurationManager {
     password: "lexn3tl1nk",
     secure: true
 }
+
 ,           
             
             /**
@@ -102,6 +103,7 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
 
