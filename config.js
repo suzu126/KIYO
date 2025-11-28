@@ -30,11 +30,12 @@ class EnterpriseConfigurationManager {
              * Configure your Lavalink server for audio processing
              */
            lavalink: {
-    host: "lavalink.lexnet.cc",
-    port: 443,
-    password: "lexn3tl1nk",
-    secure: true
+    host: "my-lavalink.onrender.com", // Hostname WITHOUT https://
+    port: 2333,                       // Lavalink server port
+    password: "mypassword",
+    secure: false                     // false → because port 2333 is HTTP
 }
+
 
 ,           
             
@@ -103,6 +104,7 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
 
