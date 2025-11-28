@@ -29,12 +29,13 @@ class EnterpriseConfigurationManager {
              * 🎵 LAVALINK AUDIO SERVER CONFIGURATION
              * Configure your Lavalink server for audio processing
              */
-            lavalink: {
-                host: EnvironmentVariableProcessor.LAVALINK_HOST || "us-01.strixnodes.com", 
-                port: EnvironmentVariableProcessor.LAVALINK_PORT || 8003,       
-                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "glace", 
-                secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'true' || false
-            },           
+           lavalink: {
+    host: "lavalink.lexnet.cc",
+    port: 443,
+    password: "lexn3tl1nk",
+    secure: true
+}
+,           
             
             /**
              * 🤖 BOT BEHAVIOR CONFIGURATION
@@ -101,5 +102,6 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
